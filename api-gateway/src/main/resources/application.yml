@@ -9,15 +9,22 @@ spring:
           uri: http://localhost:8081
           predicates:
             - Path=/avaliacoes/**
+
         - id: filme
           uri: http://localhost:8082
           predicates:
             - Path=/filmes/**
+
         - id: usuario
           uri: http://localhost:8083
           predicates:
             - Path=/usuarios/**
+
         - id: recomendacao
           uri: http://localhost:8084
           predicates:
             - Path=/recomendacoes/**
+
+springdoc:
+  enable-openapi31: true
+

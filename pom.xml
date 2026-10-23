@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>br.edu.utfpr</groupId>
+    <artifactId>microservicos-filme-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>microservicos-filme-parent</name>
+    <description>Projeto de Microsserviços para Filmes, Avaliações, Recomendações e Usuários</description>
+
+    <modules>
+        <module>api-filme</module>
+        <module>api-avaliacao</module>
+        <module>api-usuario</module>
+        <module>api-recomendacao</module>
+        <module>api-gateway</module>
+    </modules>
+</project>

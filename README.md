@@ -13,7 +13,7 @@ Acessados por um gateway e de persistencia em um banco de dados H2.
 
 A estrutura em alto nível do projeto está descrita no diagrama abaixo:
 
-<img src="https://github.com/mrmutthy/Microservicos-Filme/blob/main/diag.png" alt="Diagrama do Projeto">
+![Diagrama do Projeto](diag.png)
 
 **Para rodar o projeto, você precisa ter em sua máquina uma versão 17 ou superior do Java.**
 
